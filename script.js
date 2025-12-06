@@ -85,7 +85,7 @@ navItems.forEach(item => {
 });
 
 // Simulate progress bar animation when playing
-setInterval(() => {
+const progressInterval = setInterval(() => {
     if (isPlaying) {
         const currentWidth = parseFloat(progressFilled.style.width) || 30;
         if (currentWidth < 100) {
