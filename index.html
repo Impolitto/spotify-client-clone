@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fab fa-spotify"></i>
+                <span>Spotify Clone</span>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-search"></i>
+                        <span>Search</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-book"></i>
+                        <span>Your Library</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="playlist-section">
+                <ul>
+                    <li>
+                        <i class="fas fa-plus-square"></i>
+                        <span>Create Playlist</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-heart"></i>
+                        <span>Liked Songs</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="playlists">
+                <ul>
+                    <li>Discover Weekly</li>
+                    <li>Release Radar</li>
+                    <li>Daily Mix 1</li>
+                    <li>Daily Mix 2</li>
+                    <li>Chill Vibes</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="nav-buttons">
+                    <button class="nav-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="nav-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="user-section">
+                    <button class="upgrade-btn">Upgrade</button>
+                    <div class="user-profile">
+                        <i class="fas fa-user-circle"></i>
+                        <span>User</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="content">
+                <section class="section">
+                    <h2>Good evening</h2>
+                    <div class="card-grid">
+                        <div class="card-item featured">
+                            <img src="https://via.placeholder.com/80" alt="Liked Songs">
+                            <span>Liked Songs</span>
+                        </div>
+                        <div class="card-item featured">
+                            <img src="https://via.placeholder.com/80" alt="Discover Weekly">
+                            <span>Discover Weekly</span>
+                        </div>
+                        <div class="card-item featured">
+                            <img src="https://via.placeholder.com/80" alt="Release Radar">
+                            <span>Release Radar</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>Recently played</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://via.placeholder.com/150" alt="Album">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                            <h3>Playlist Name</h3>
+                            <p>Description or artist</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://via.placeholder.com/150" alt="Album">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                            <h3>Daily Mix 1</h3>
+                            <p>Your daily music mix</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://via.placeholder.com/150" alt="Album">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                            <h3>Chill Hits</h3>
+                            <p>Kick back to the best new</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://via.placeholder.com/150" alt="Album">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                            <h3>Rock Classics</h3>
+                            <p>Rock legends & epic songs</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>Made for you</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://via.placeholder.com/150" alt="Album">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                            <h3>Discover Weekly</h3>
+                            <p>Your weekly mixtape of fresh music</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://via.placeholder.com/150" alt="Album">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                            <h3>Release Radar</h3>
+                            <p>Catch all the latest music</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://via.placeholder.com/150" alt="Album">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                            <h3>Daily Mix 2</h3>
+                            <p>Your favorite songs in one place</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://via.placeholder.com/150" alt="Album">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                            <h3>On Repeat</h3>
+                            <p>Songs you can't get enough of</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Player -->
+    <footer class="player">
+        <div class="player-left">
+            <img src="https://via.placeholder.com/56" alt="Now Playing">
+            <div class="track-info">
+                <h4>Song Title</h4>
+                <p>Artist Name</p>
+            </div>
+            <i class="far fa-heart"></i>
+        </div>
+
+        <div class="player-center">
+            <div class="player-controls">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-step-backward"></i>
+                <button class="play-pause-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-redo"></i>
+            </div>
+            <div class="progress-bar">
+                <span class="current-time">0:00</span>
+                <div class="progress">
+                    <div class="progress-filled"></div>
+                </div>
+                <span class="duration">3:45</span>
+            </div>
+        </div>
+
+        <div class="player-right">
+            <i class="fas fa-list"></i>
+            <i class="fas fa-desktop"></i>
+            <i class="fas fa-volume-up"></i>
+            <div class="volume-bar">
+                <div class="volume-filled"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
